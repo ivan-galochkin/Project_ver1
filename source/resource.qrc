@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="start_page">
+    <file>cup2_off.png</file>
+    <file>cup2_on.png</file>
+    <file>cup1_off.png</file>
+    <file>cup_1.png</file>
+    <file>letter2_off.png</file>
+    <file>letter2_on.png</file>
+    <file>shelf2.png</file>
+    <file>award_off.png</file>
+    <file>award_on.png</file>
+    <file>lamp_off.png</file>
+    <file>lamp_on.png</file>
+    <file>test_off.png</file>
+    <file>test_on.png</file>
+  </qresource>
+</RCC>
