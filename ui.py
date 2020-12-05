@@ -789,7 +789,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Ударный заряд ударений"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Ultest"))
         self.menu_btn.setText(_translate("MainWindow", "Меню"))
         self.name_of_page_label.setText(_translate("MainWindow", "Начальный экран   "))
         self.start_menu_btn.setText(_translate("MainWindow", "Начальная\n"
