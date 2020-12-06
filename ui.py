@@ -787,6 +787,9 @@ class Ui_MainWindow(object):
         self.stackedWidget.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
+        self.add_test_tablewidget.verticalHeader().setVisible(True)
+        self.add_test_tablewidget.horizontalHeader().setVisible(True)
+
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Ultest"))
@@ -867,3 +870,6 @@ class Ui_MainWindow(object):
         self.test_name_text.setText(_translate("MainWindow", "Название теста"))
         self.create_test_btn.setText(_translate("MainWindow", "Создать тест"))
         self.delete_test_btn.setText(_translate("MainWindow", "Удалить тест"))
+
+        self.add_test_tablewidget.verticalHeader().setVisible(True)
+        self.add_test_tablewidget.horizontalHeader().setVisible(True)
